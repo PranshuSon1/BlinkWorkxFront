@@ -1,0 +1,84 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.order-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.order-table th, .order-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.order-table th {
+  background-color: #f4f4f4;
+}
+
+.new-order-form {
+  background: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.new-order-form h2 {
+  margin-top: 0;
+}
+
+.new-order-form .form-group {
+  margin-bottom: 15px;
+}
+
+.new-order-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.new-order-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-button {
+  padding: 10px 20px;
+  border: none;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.cancel-button {
+  padding: 10px 20px;
+  border: none;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f44336;
+}
+
+
+.new-order-form button:hover {
+  background-color: #0056b3;
+}
